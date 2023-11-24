@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ 
+}
+
+.container{
+ background: #FFD700CF ;
+  width: 755px;
+  height: 445px;
+  top: 227px;
+  left: 204px;
+  border-radius: 6px 10px 10px 10px;
+  box-shadow: -4px 3px 4px 0px #151D53;
+
+ }
+.groupe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+ 
+}
+/*partie1 en jaune*/
+.partie1{
+width: 190px;
+z-index: 3;
+}
+
+.logo2{
+    width: 125px;
+    margin-top: 15px;
+    margin-left: -45px;
+}
+.inscrip{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0em;
+    margin-left: -52px;
+    margin-top: 60px;
+    color: #000000;
+}
+.person{
+   width: 220px;
+   margin-top: -90px;
+   margin-left: -12px;
+  }
+
+
+.ima1{
+ width: 123px;
+  height: 104px;
+  top: 123px;
+  left: 82px;
+  margin-top: -50px;
+  margin-left: -50px;
+  z-index: -9;
+}
+.ima2{
+width: 70px;
+margin-left: 145px;
+margin-top: -8px;
+
+}
+.ima3{
+width: 130px;
+margin-left: 150px;
+margin-top: 68px;
+ 
+}
+/*partie en blanc*/
+.partie2{ 
+  width: 580px;
+  height: 444px;
+  top: 227px;
+  left: 642px;
+  border-radius: 35px 0px 0px 35px;
+  background: #FFFFFF;
+  box-shadow: -10px 0px 8px 0px #151D53;
+ 
+  }
+
+  
+  .picture{
+    position: relative;
+    margin-top: -60px;
+    margin-left: 180px;
+    z-index: -3;
+ 
+}
+  .ima4{
+    width: 106px;
+    height: 90px;
+    top: 91px;
+    left: 100px;
+    float: left;
+   margin-top: -10px;
+ }
+   .ima5{
+  width: 63px;
+  height: 54px;
+  top: 81px;
+  left: 224px;
+  border: 1px;
+  background: linear-gradient(0deg, #FFD700);
+  margin-left: -40px;
+  margin-top: -20px;
+}
+  .ima6{
+    width: 110px;
+    height: 104px;
+    top: 369px;
+    left: 444px;
+    margin-right: -120px;
+    margin-left: 160px;
+    margin-top: 90px;
+
+}
+.groupeima2{
+   position: relative;
+   float:right;
+   margin-top: 220px;
+
+  }
+   .ima7{
+   width: 45px;
+   margin-right: 80px;
+}
+  .ima8{
+   width: 62px;
+   margin-right: -25px;
+   margin-top: 20px;
+}
+
+.item{
+    display: grid;
+    text-align: center;
+    margin-top: -150px;
+    grid-gap: 20px;
+}
+.titrecompte{
+  background: #151D53;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  border-radius: 6px 10px 10px 10px;
+  width: 200px;
+  padding: 2px;
+  margin-left: 160px;
+}
+.form-control-plaintext{
+  width: 270px;
+ height: 30px;
+ top: 508px;
+ border-radius: 6px 10px 10px 10px;
+ background: #FFFFFF;
+ box-shadow: -4px 4px 4px 0px #00000040;
+ border: 0px solid #BFBFBF;
+ font-family: Montserrat;
+ font-size: 16px;
+ font-weight: 10;
+ line-height: 29px;
+ letter-spacing: 0em;
+ text-indent: 50px;
+ margin-left: 120px;
+
+}
+.info{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.enre{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border-radius:6px 10px 10px 10px;
+    box-shadow: -2px 3px 4px 0px #151D53;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding: 7px;
+    color: #000000;
+    font-family: Montserrat;
+  }
+button[type="submit"]{
+    width: 90px;
+    height: 30px;
+    border-radius: 6px 10px 10px 10px;
+    background-color: #151D53;
+    font-family: Montserrat;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
